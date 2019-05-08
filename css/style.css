@@ -1,0 +1,23 @@
+div.full-width-banner {
+	width: 100%;
+	margin: 0;
+	height: 70vh;
+	background-image: url(../img/hero_banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+	background-position-x: center;
+	opacity: 0.55;
+}
+
+div body {
+	background-color: #f2f2f2;
+}
+
+h1#title {
+	color: #e64626;
+}
+
+.wrapper {
+	height: 100%;
+}
