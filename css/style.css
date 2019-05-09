@@ -7,7 +7,6 @@ div.full-width-banner {
 	background-size: cover;
 	background-position-y: center;
 	background-position-x: center;
-	opacity: 0.55;
 }
 
 div body {
@@ -16,6 +15,7 @@ div body {
 
 h1#title {
 	color: #e64626;
+	font-size: 4rem;
 }
 
 .wrapper {
