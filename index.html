@@ -12,14 +12,12 @@
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
+
 		<link rel="stylesheet" href="css/style.css" />
-		<title>Events page mockup</title>
+		<title>Law Calendar Events landing</title>
 	</head>
 	<body>
-		<div
-			class="container-fluid pl-0 pr-0 img-hero"
-			style="position: sticky;"
-		>
+		<div class="container-fluid pl-0 pr-0 img-hero">
 			<div class="img-darken-overlay"></div>
 			<nav
 				class="navbar navbar-expand-lg navbar-dark"
@@ -97,10 +95,9 @@
 			</div>
 		</div>
 
-		<div class="container" style="z-index: 1;">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-8">
+				<div class="col-lg-8">
 					<h1 class="h1 mt-4 mb-4">
 						<strong>Law Calendar</strong>
 					</h1>
@@ -129,7 +126,7 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">
-											Card title
+											Event name
 										</h5>
 										<p class="card-text">
 											This is a wider card with supporting
@@ -142,6 +139,12 @@
 												>Last updated 3 mins ago</small
 											>
 										</p>
+										<button
+											class="btn btn-outline-primary go-btn"
+											onclick="goInfo()"
+										>
+											I'm Interested
+										</button>
 									</div>
 								</div>
 							</div>
@@ -158,7 +161,7 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">
-											Card title
+											Event name
 										</h5>
 										<p class="card-text">
 											This is a wider card with supporting
@@ -171,6 +174,12 @@
 												>Last updated 3 mins ago</small
 											>
 										</p>
+										<button
+											class="btn btn-outline-primary go-btn"
+											onclick="goInfo()"
+										>
+											I'm Interested
+										</button>
 									</div>
 								</div>
 							</div>
@@ -187,7 +196,7 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">
-											Card title
+											Event name
 										</h5>
 										<p class="card-text">
 											This is a wider card with supporting
@@ -200,6 +209,12 @@
 												>Last updated 3 mins ago</small
 											>
 										</p>
+										<button
+											class="btn btn-outline-primary go-btn"
+											onclick="goInfo()"
+										>
+											I'm Interested
+										</button>
 									</div>
 								</div>
 							</div>
@@ -216,7 +231,7 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">
-											Card title
+											Event name
 										</h5>
 										<p class="card-text">
 											This is a wider card with supporting
@@ -229,6 +244,12 @@
 												>Last updated 3 mins ago</small
 											>
 										</p>
+										<button
+											class="btn btn-outline-primary go-btn"
+											onclick="goInfo()"
+										>
+											I'm Interested
+										</button>
 									</div>
 								</div>
 							</div>
@@ -245,7 +266,7 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">
-											Card title
+											Event name
 										</h5>
 										<p class="card-text">
 											This is a wider card with supporting
@@ -258,6 +279,12 @@
 												>Last updated 3 mins ago</small
 											>
 										</p>
+										<button
+											class="btn btn-outline-primary go-btn"
+											onclick="goInfo()"
+										>
+											I'm Interested
+										</button>
 									</div>
 								</div>
 							</div>
@@ -274,7 +301,7 @@
 								<div class="col-md-8">
 									<div class="card-body">
 										<h5 class="card-title">
-											Card title
+											Event name
 										</h5>
 										<p class="card-text">
 											This is a wider card with supporting
@@ -287,13 +314,93 @@
 												>Last updated 3 mins ago</small
 											>
 										</p>
+										<button
+											class="btn btn-outline-primary go-btn"
+											onclick="goInfo()"
+										>
+											I'm Interested
+										</button>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 mt-4">
+				<div class="col-md-1"></div>
+				<div class="col-lg-3 mt-4">
+					<div class="calendar-container mb-4">
+						<table class="table table-sm table-striped">
+							<thead>
+								<tr>
+									<th colspan="7" class="text-center">
+										May
+									</th>
+								</tr>
+								<tr>
+									<th scope="col">Mon</th>
+									<th scope="col">Tue</th>
+									<th scope="col">Wed</th>
+									<th scope="col">Thu</th>
+									<th scope="col">Fri</th>
+									<th scope="col">Sat</th>
+									<th scope="col">Sun</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="text-center">
+									<td class="text-black-50">29</td>
+									<td class="text-black-50">30</td>
+									<td>1</td>
+									<td>2</td>
+									<td>3</td>
+									<td>4</td>
+									<td>5</td>
+								</tr>
+								<tr class="text-center">
+									<td>6</td>
+									<td>7</td>
+									<td>8</td>
+									<td>9</td>
+									<td>10</td>
+									<td>11</td>
+									<td>12</td>
+								</tr>
+								<tr class="text-center">
+									<td>13</td>
+									<td>14</td>
+									<td
+										class="text-danger"
+										style="text-decoration: underline"
+									>
+										<strong>15</strong>
+									</td>
+									<td>16</td>
+									<td>17</td>
+									<td>18</td>
+									<td>19</td>
+								</tr>
+								<tr class="text-center">
+									<td>20</td>
+									<td>21</td>
+									<td>22</td>
+									<td>23</td>
+									<td>24</td>
+									<td>25</td>
+
+									<td>26</td>
+								</tr>
+								<tr class="text-center">
+									<td>27</td>
+									<td>28</td>
+									<td>29</td>
+									<td>30</td>
+									<td>31</td>
+									<td class="text-black-50">1</td>
+									<td class="text-black-50">2</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 					<div class="side-filter-wrapper">
 						<div class="search-box">
 							<p><strong>Find Events</strong></p>
@@ -347,6 +454,24 @@
 						<hr />
 						<div class="price-filter">
 							<p><strong>Price</strong></p>
+							<div class="check-options">
+								<div class="checkbox-field">
+									<input type="checkbox" name="Conferences" />
+									<label for="Conferences">Free</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Seminars" />
+									<label for="Seminars">$1 - $5</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Lectures" />
+									<label for="Lectures">$5 - $10</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Lectures" />
+									<label for="Lectures">$15 - $20</label>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
