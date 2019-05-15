@@ -1,226 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no"
 		/>
-
-		<!-- Bootstrap CSS -->
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
-
 		<link rel="stylesheet" href="css/style.css" />
-
 		<title>Events page mockup</title>
 	</head>
 	<body>
-		<div class="container-fluid full-width-banner">
-			<div class="container wrapper">
-				<div class="row wrapper">
-					<div class="col-md-1"></div>
-					<div class="col-md-10  d-flex align-items-center">
-						<h1 id="title" class="h1">
-							<span id="emphasis">EVENTS</span> CALENDER
+		<div
+			class="container-fluid pl-0 pr-0 img-hero"
+			style="position: sticky;"
+		>
+			<div class="img-darken-overlay"></div>
+			<nav
+				class="navbar navbar-expand-lg navbar-dark"
+				style="background-color: rgba(0,0,0,0.7);"
+			>
+				<div class="container nav-wrapper">
+					<a class="navbar-brand" href="#">
+						<img
+							src="img/usyd-logo-img-only.png"
+							alt="usyd-logo"
+							width="50"
+							height="50"
+						/>
+						<span class="bottom-alignment"
+							>University of Sydney</span
+						>
+					</a>
+					<button class="btn btn-outline-danger">Log In</button>
+				</div>
+			</nav>
+
+			<div class="container height-wrap">
+				<div class="row height-wrap">
+					<div class="col-md-12 d-flex align-items-center">
+						<h1 id="title">
+							EVENTS <span style="color: white;">CALENDAR</span>
 						</h1>
 					</div>
-					<div class="col-md-1"></div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-12 featured-heading">
+								<h3 class="text-left text-light">
+									Featured Events
+								</h3>
+							</div>
+							<div class="col-md-12 featured-main">
+								<div class="media mt-3 mb-3">
+									<img
+										src="https://via.placeholder.com/150"
+										class="mr-3"
+										alt="..."
+									/>
+									<div class="media-body">
+										<h5 class="mt-0">
+											Media heading
+										</h5>
+										<div class="feature-desc-wrapper">
+											Cras sit amet nibh libero, in
+											gravida nulla. Nulla vel metus
+											scelerisque ante sollicitudin. Cras
+											purus odio, vestibulum in vulputate
+											at, tempus viverra turpis. Fusce
+											condimentum nunc ac nisi vulputate
+											fringilla. Donec lacinia congue
+											felis in faucibus.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 featured-footer">
+								<div class="indicator-circle"></div>
+								<div class="indicator-circle active"></div>
+								<div class="indicator-circle"></div>
+								<div class="indicator-circle"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2"></div>
 				</div>
 			</div>
 		</div>
 
-		<div class="container main">
-			<div class="row main-heading">
+		<div class="container" style="z-index: 1;">
+			<div class="row">
+				<div class="col-md-1"></div>
 				<div class="col-md-8">
-					<h1 class="h1"><strong>Law Calendar</strong></h1>
-					<nav>
-						<ul>
-							<li>Upcoming Events</li>
-							<li>Trending Events</li>
-						</ul>
-					</nav>
-					<div class="card mb-3">
-						<div class="row no-gutters">
-							<div class="col-md-4">
-								<img src="..." class="card-img" alt="..." />
-							</div>
-							<div class="col-md-8">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										This is a wider card with supporting
-										text below as a natural lead-in to
-										additional content. This content is a
-										little bit longer.
-									</p>
-									<p class="card-text">
-										<small class="text-muted"
-											>Last updated 3 mins ago</small
-										>
-									</p>
+					<h1 class="h1 mt-4 mb-4">
+						<strong>Law Calendar</strong>
+					</h1>
+					<ul class="nav nav-pills mb-4" id="event-list">
+						<li class="nav-item">
+							<a class="nav-link active" href="#event-list"
+								>Upcoming Events</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#event-list"
+								>Trending Events</a
+							>
+						</li>
+					</ul>
+					<div class="events-wrapper">
+						<div class="card mb-3">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<img
+										src="https://via.placeholder.com/150"
+										class="card-img"
+										alt="..."
+									/>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											Card title
+										</h5>
+										<p class="card-text">
+											This is a wider card with supporting
+											text below as a natural lead-in to
+											additional content. This content is
+											a little bit longer.
+										</p>
+										<p class="card-text">
+											<small class="text-muted"
+												>Last updated 3 mins ago</small
+											>
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card mb-3">
-						<div class="row no-gutters">
-							<div class="col-md-4">
-								<img src="..." class="card-img" alt="..." />
-							</div>
-							<div class="col-md-8">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										This is a wider card with supporting
-										text below as a natural lead-in to
-										additional content. This content is a
-										little bit longer.
-									</p>
-									<p class="card-text">
-										<small class="text-muted"
-											>Last updated 3 mins ago</small
-										>
-									</p>
+						<div class="card mb-3">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<img
+										src="https://via.placeholder.com/150"
+										class="card-img"
+										alt="..."
+									/>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											Card title
+										</h5>
+										<p class="card-text">
+											This is a wider card with supporting
+											text below as a natural lead-in to
+											additional content. This content is
+											a little bit longer.
+										</p>
+										<p class="card-text">
+											<small class="text-muted"
+												>Last updated 3 mins ago</small
+											>
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card mb-3">
-						<div class="row no-gutters">
-							<div class="col-md-4">
-								<img src="..." class="card-img" alt="..." />
-							</div>
-							<div class="col-md-8">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										This is a wider card with supporting
-										text below as a natural lead-in to
-										additional content. This content is a
-										little bit longer.
-									</p>
-									<p class="card-text">
-										<small class="text-muted"
-											>Last updated 3 mins ago</small
-										>
-									</p>
+						<div class="card mb-3">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<img
+										src="https://via.placeholder.com/150"
+										class="card-img"
+										alt="..."
+									/>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											Card title
+										</h5>
+										<p class="card-text">
+											This is a wider card with supporting
+											text below as a natural lead-in to
+											additional content. This content is
+											a little bit longer.
+										</p>
+										<p class="card-text">
+											<small class="text-muted"
+												>Last updated 3 mins ago</small
+											>
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card mb-3">
-						<div class="row no-gutters">
-							<div class="col-md-4">
-								<img src="..." class="card-img" alt="..." />
-							</div>
-							<div class="col-md-8">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										This is a wider card with supporting
-										text below as a natural lead-in to
-										additional content. This content is a
-										little bit longer.
-									</p>
-									<p class="card-text">
-										<small class="text-muted"
-											>Last updated 3 mins ago</small
-										>
-									</p>
+						<div class="card mb-3">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<img
+										src="https://via.placeholder.com/150"
+										class="card-img"
+										alt="..."
+									/>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											Card title
+										</h5>
+										<p class="card-text">
+											This is a wider card with supporting
+											text below as a natural lead-in to
+											additional content. This content is
+											a little bit longer.
+										</p>
+										<p class="card-text">
+											<small class="text-muted"
+												>Last updated 3 mins ago</small
+											>
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card mb-3">
-						<div class="row no-gutters">
-							<div class="col-md-4">
-								<img src="..." class="card-img" alt="..." />
-							</div>
-							<div class="col-md-8">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										This is a wider card with supporting
-										text below as a natural lead-in to
-										additional content. This content is a
-										little bit longer.
-									</p>
-									<p class="card-text">
-										<small class="text-muted"
-											>Last updated 3 mins ago</small
-										>
-									</p>
+						<div class="card mb-3">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<img
+										src="https://via.placeholder.com/150"
+										class="card-img"
+										alt="..."
+									/>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											Card title
+										</h5>
+										<p class="card-text">
+											This is a wider card with supporting
+											text below as a natural lead-in to
+											additional content. This content is
+											a little bit longer.
+										</p>
+										<p class="card-text">
+											<small class="text-muted"
+												>Last updated 3 mins ago</small
+											>
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="card mb-3">
-						<div class="row no-gutters">
-							<div class="col-md-4">
-								<img src="..." class="card-img" alt="..." />
-							</div>
-							<div class="col-md-8">
-								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">
-										This is a wider card with supporting
-										text below as a natural lead-in to
-										additional content. This content is a
-										little bit longer.
-									</p>
-									<p class="card-text">
-										<small class="text-muted"
-											>Last updated 3 mins ago</small
-										>
-									</p>
+						<div class="card mb-3">
+							<div class="row no-gutters">
+								<div class="col-md-4">
+									<img
+										src="https://via.placeholder.com/150"
+										class="card-img"
+										alt="..."
+									/>
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title">
+											Card title
+										</h5>
+										<p class="card-text">
+											This is a wider card with supporting
+											text below as a natural lead-in to
+											additional content. This content is
+											a little bit longer.
+										</p>
+										<p class="card-text">
+											<small class="text-muted"
+												>Last updated 3 mins ago</small
+											>
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<input
-						type="search"
-						class="form-control ds-input"
-						id="search-input"
-						placeholder="Search..."
-					/>
-					<ul>
-						Event Type
-						<li>
-							Conferences/Seminars/Lectures
-						</li>
-						<li>Exhibits</li>
-						<li>Performance</li>
-						<li>Workshops</li>
-						<li>Gatherings</li>
-						<li>Career Development</li>
-					</ul>
-
-					<ul>
-						Price
-						<li>Free</li>
-						<li>$5 - $10</li>
-						<li>$10 - $20</li>
-					</ul>
-
-					<ul>
-						Audience
-						<li>Staff</li>
-						<li>Students</li>
-						<li>Public</li>
-					</ul>
+				<div class="col-md-3 mt-4">
+					<div class="side-filter-wrapper">
+						<div class="search-box">
+							<p><strong>Find Events</strong></p>
+							<input
+								type="search"
+								class="form-control ds-input"
+								id="search-input"
+								placeholder="Search location, name..."
+							/>
+						</div>
+						<hr />
+						<div class="event-type-filter">
+							<p><strong>Event Type</strong></p>
+							<div class="check-options">
+								<div class="checkbox-field">
+									<input type="checkbox" name="Conferences" />
+									<label for="Conferences">Conferences</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Seminars" />
+									<label for="Seminars">Seminars</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Lectures" />
+									<label for="Lectures">Lectures</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Exhibits" />
+									<label for="Exhibits">Exhibits</label>
+								</div>
+							</div>
+						</div>
+						<hr />
+						<div class="audience-type-filter">
+							<p><strong>Audience</strong></p>
+							<div class="check-options">
+								<div class="checkbox-field">
+									<input type="checkbox" name="Conferences" />
+									<label for="Conferences">Students</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Seminars" />
+									<label for="Seminars">Staff</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Lectures" />
+									<label for="Lectures">Public</label>
+								</div>
+							</div>
+						</div>
+						<hr />
+						<div class="price-filter">
+							<p><strong>Price</strong></p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -236,7 +367,6 @@
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"
 		></script>
-
 		<script src="js/main.js"></script>
 	</body>
 </html>
