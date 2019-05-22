@@ -46,7 +46,14 @@
 				<div class="row">
 					<div class="col-md-12 d-flex align-items-center">
 						<h1 id="title" class="mt-4 mb-4">
-							EVENTS <span style="color: white;">CALENDAR</span>
+							<a
+								id="titleAnchor"
+								href="index.html"
+								style="color: #e64626; text-decoration: none;"
+							>
+								EVENTS
+								<span style="color: white;">CALENDAR</span>
+							</a>
 						</h1>
 					</div>
 				</div>
@@ -433,6 +440,14 @@
 									<input type="checkbox" name="Exhibits" />
 									<label for="Exhibits">Exhibits</label>
 								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Training" />
+									<label for="Training">Training</label>
+								</div>
+								<div class="checkbox-field">
+									<input type="checkbox" name="Meetups" />
+									<label for="Meetups">Meetups</label>
+								</div>
 							</div>
 						</div>
 						<hr />
@@ -444,12 +459,16 @@
 									<label for="Conferences">Students</label>
 								</div>
 								<div class="checkbox-field">
+									<input type="checkbox" name="Alumni" />
+									<label for="Alumni">Alumni</label>
+								</div>
+								<div class="checkbox-field">
 									<input type="checkbox" name="Seminars" />
 									<label for="Seminars">Staff</label>
 								</div>
 								<div class="checkbox-field">
-									<input type="checkbox" name="Lectures" />
-									<label for="Lectures">Public</label>
+									<input type="checkbox" name="Public" />
+									<label for="Public">Public</label>
 								</div>
 							</div>
 						</div>
@@ -458,20 +477,12 @@
 							<p><strong>Price</strong></p>
 							<div class="check-options">
 								<div class="checkbox-field">
-									<input type="checkbox" name="Conferences" />
-									<label for="Conferences">Free</label>
+									<input type="checkbox" name="Free" />
+									<label for="Free">Free</label>
 								</div>
 								<div class="checkbox-field">
-									<input type="checkbox" name="Seminars" />
-									<label for="Seminars">$1 - $5</label>
-								</div>
-								<div class="checkbox-field">
-									<input type="checkbox" name="Lectures" />
-									<label for="Lectures">$5 - $10</label>
-								</div>
-								<div class="checkbox-field">
-									<input type="checkbox" name="Lectures" />
-									<label for="Lectures">$15 - $20</label>
+									<input type="checkbox" name="Paid" />
+									<label for="Paid">Paid</label>
 								</div>
 							</div>
 						</div>
