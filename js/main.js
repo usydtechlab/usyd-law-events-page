@@ -2,6 +2,8 @@ function goInfo() {
 	window.open("info.html");
 }
 
+// Fetching data
+
 // Search filter
 let searchInput = document.getElementById("search-input");
 let eventDOMElements = document.querySelectorAll(".event-container .card-body");
