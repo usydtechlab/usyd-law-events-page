@@ -21,7 +21,7 @@ base64 string to load the image in.
 }
 </code>
 
-This is data json object is loaded into main.js which extracts each entry and creates an event object for each event and displays them.
+This data json object is loaded into main.js which extracts each entry and creates an event object for each event and displays them.
 <br>
 
 Made with 💙 at the TechLab.
